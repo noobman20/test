@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlayerConfig>
+  <Player>
+    <Account></Account>
+    <Password></Password>
+    <ConfirmPassword></ConfirmPassword>
+    <Name></Name>
+    <Level>1</Level>
+    <Hp>50</Hp>
+    <Mp>30</Mp>
+    <Damage>10</Damage>
+    <Speed>4</Speed>
+    <Defence>12</Defence>
+    <Critical>0.1</Critical>
+  </Player>
+</PlayerConfig>

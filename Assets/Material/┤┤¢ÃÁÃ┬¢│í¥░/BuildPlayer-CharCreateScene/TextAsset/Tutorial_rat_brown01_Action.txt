@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Actions>
+  <Action Name="CharCreate_Stand" LinkAni="Intro_Stand2" NextAction="CharCreate_Stand" Length="4" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+  <Action Name="CharCreate_Start" LinkAni="Intro_Start2" NextAction="CharCreate_Stand" Length="190" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+</Actions>

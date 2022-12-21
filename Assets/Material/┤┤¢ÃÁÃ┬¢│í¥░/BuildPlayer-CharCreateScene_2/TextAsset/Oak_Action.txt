@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Actions>
+  <Action Name="Destroy" LinkAni="None" NextAction="Destroy" Length="1" BlendFrame="0" NextActionFrame="0" UsingGroup="Common">
+    <Signal Name="Visible" StartFrame="0" EndFrame="1" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value Visible="False" Type="Boolean" />
+    </Signal>
+    <Signal Name="GameObject" StartFrame="0" EndFrame="1" Order="1" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value Name="Assets/Resources/Map/DungeonProp/Common/Dynamic/Oak/Oak_Brkoen_Prefab.prefab" Type="Object" Custom="GameObject" />
+      <Value Offset="0, 0, 0" Type="Vector3" />
+      <Value Rotation="0, 0, 0" Type="Vector3" />
+      <Value Scale="1, 1, 1" Type="Vector3" />
+      <Value ParentBone="" Type="String" />
+      <Value ChangeAnimation="" Type="String" />
+      <Value DestroyByChangeAction="False" Type="Boolean" />
+      <Value MaintenanceAction="" Type="String" />
+      <Value MaintenanceMixedAction="" Type="String" />
+    </Signal>
+    <Signal Name="Destroy" StartFrame="0" EndFrame="1" Order="3" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="" />
+    <Signal Name="DropObject" StartFrame="0" EndFrame="1" Order="2" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="" />
+  </Action>
+  <Action Name="Hit" LinkAni="Damage" NextAction="Idle" Length="10" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+  <Action Name="Idle" LinkAni="Stand" NextAction="Idle" Length="18" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+</Actions>

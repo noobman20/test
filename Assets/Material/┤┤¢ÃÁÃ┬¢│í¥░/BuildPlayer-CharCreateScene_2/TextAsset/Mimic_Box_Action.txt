@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Actions>
+  <Action Name="Destroy" LinkAni="Open" NextAction="Destroy" Length="20" BlendFrame="0" NextActionFrame="0" UsingGroup="Common">
+    <Signal Name="Destroy" StartFrame="19" EndFrame="20" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="" />
+  </Action>
+  <Action Name="Hit" LinkAni="Hit" NextAction="Idle" Length="15" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+  <Action Name="Idle" LinkAni="Stand" NextAction="Idle" Length="19" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+</Actions>

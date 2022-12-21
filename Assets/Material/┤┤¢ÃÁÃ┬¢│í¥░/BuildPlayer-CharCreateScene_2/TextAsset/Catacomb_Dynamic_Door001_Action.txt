@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Actions>
+  <Action Name="Open" LinkAni="Open" NextAction="Open_Stand" Length="15" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+  <Action Name="Open_Stand" LinkAni="Open_Stand" NextAction="Open_Stand" Length="15" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+  <Action Name="Close" LinkAni="Close" NextAction="Close_Stand" Length="10" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+  <Action Name="Close_Stand" LinkAni="Close_Stand" NextAction="Close_Stand" Length="30" BlendFrame="0" NextActionFrame="0" UsingGroup="Common" />
+</Actions>

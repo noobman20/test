@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Actions>
+  <Action Name="Fly1" LinkAni="Fly1" NextAction="Fly1" Length="36" BlendFrame="0" NextActionFrame="35" UsingGroup="Common">
+    <Signal Name="DistanceReaction" StartFrame="0" EndFrame="36" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value ReactionDistance="9" Type="Float" Custom="0.1~10.0" />
+      <Value ReactionActionName="Idle1" Type="String" />
+      <Value Inside="False" Type="Bool" />
+    </Signal>
+  </Action>
+  <Action Name="Fly2" LinkAni="Fly2" NextAction="Fly2" Length="36" BlendFrame="0" NextActionFrame="35" UsingGroup="Common">
+    <Signal Name="DistanceReaction" StartFrame="0" EndFrame="36" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value ReactionDistance="9" Type="Float" Custom="0.1~10.0" />
+      <Value ReactionActionName="Idle2" Type="String" />
+      <Value Inside="False" Type="Bool" />
+    </Signal>
+  </Action>
+  <Action Name="Fly3" LinkAni="Fly3" NextAction="Fly3" Length="35" BlendFrame="0" NextActionFrame="34" UsingGroup="Common">
+    <Signal Name="DistanceReaction" StartFrame="0" EndFrame="35" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value ReactionDistance="9" Type="Float" Custom="0.1~10.0" />
+      <Value ReactionActionName="Idle3" Type="String" />
+      <Value Inside="False" Type="Bool" />
+    </Signal>
+  </Action>
+  <Action Name="Idle1" LinkAni="idle1" NextAction="Idle1" Length="60" BlendFrame="0" NextActionFrame="0" UsingGroup="Common">
+    <Signal Name="DistanceReaction" StartFrame="0" EndFrame="60" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value ReactionDistance="2" Type="Float" Custom="0.1~10.0" />
+      <Value ReactionActionName="Fly1" Type="String" />
+      <Value Inside="True" Type="Bool" />
+    </Signal>
+  </Action>
+  <Action Name="Idle2" LinkAni="idle2" NextAction="Idle2" Length="40" BlendFrame="0" NextActionFrame="0" UsingGroup="Common">
+    <Signal Name="DistanceReaction" StartFrame="0" EndFrame="40" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value ReactionDistance="2" Type="Float" Custom="0.1~10.0" />
+      <Value ReactionActionName="Fly2" Type="String" />
+      <Value Inside="True" Type="Bool" />
+    </Signal>
+  </Action>
+  <Action Name="Idle3" LinkAni="idle1" NextAction="Idle3" Length="60" BlendFrame="0" NextActionFrame="0" UsingGroup="Common">
+    <Signal Name="DistanceReaction" StartFrame="1" EndFrame="60" Order="0" FixedFrameCheck="True" SharedSignal="None" GroupID="0" Nick="">
+      <Value ReactionDistance="2" Type="Float" Custom="0.1~10.0" />
+      <Value ReactionActionName="Fly3" Type="String" />
+      <Value Inside="True" Type="Bool" />
+    </Signal>
+  </Action>
+</Actions>
